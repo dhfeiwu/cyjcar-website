@@ -1,0 +1,1 @@
+Jetour catalog names are English only. Chinese product names removed from JS catalog display.

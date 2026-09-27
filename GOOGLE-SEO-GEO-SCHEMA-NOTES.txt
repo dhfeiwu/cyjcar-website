@@ -1,0 +1,8 @@
+Google SEO/GEO/Schema update
+- Canonical URLs added
+- Organization + WebPage/CollectionPage + BreadcrumbList JSON-LD added
+- Open Graph metadata added
+- sitemap.xml generated
+- robots.txt references sitemap
+- Existing visual layout, catalogs, links and product data preserved
+- No fabricated price, availability, rating or review schema added

@@ -1,0 +1,9 @@
+PASS - Products menu contains For Lexus
+PASS - Lexus brand page links to LX600 catalog
+PASS - Toyota page links to LC300 catalog
+PASS - LX600 catalog has all products
+PASS - LC300 catalog has all products
+PASS - LX600 images extracted
+PASS - LC300 images extracted
+PASS - LX600 no E-Star residue
+PASS - LC300 no E-Star residue

@@ -1,0 +1,12 @@
+toyota-lc150 cards: PASS
+toyota-lc150 search: PASS
+toyota-lc150 quote: PASS
+toyota-lc150 schema: PASS
+toyota-lc200 cards: PASS
+toyota-lc200 search: PASS
+toyota-lc200 quote: PASS
+toyota-lc200 schema: PASS
+toyota lc150 link: PASS
+toyota lc200 link: PASS
+LC150 rows/images: (25, 24)
+LC200 rows/images: (25, 25)

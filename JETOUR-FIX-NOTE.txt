@@ -1,0 +1,2 @@
+V9.7 Fix: Jetour product cards updated to use WebP image paths directly.
+Product names remain English only.
