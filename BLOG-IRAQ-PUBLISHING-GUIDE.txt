@@ -1,0 +1,14 @@
+CYJCAR Iraq customer story added.
+
+Article: toyota-auto-parts-shipping-iraq.html
+Blog listing: blog.html
+Images: assets/images/blog/iraq-toyota-order/ (7 WebP files)
+
+To publish using VS Code terminal:
+git add .
+git commit -m "Publish Toyota parts shipment to Iraq blog article"
+git push origin main
+
+GitHub Pages project URL: https://dhfeiwu.github.io/cyjcar-website/toyota-auto-parts-shipping-iraq.html
+
+NOTE: The article canonical and sitemap use https://cyjcar.com. If your custom domain is not configured, update those links to your live GitHub Pages domain.

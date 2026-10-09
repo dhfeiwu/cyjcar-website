@@ -249,3 +249,8 @@ display:flex;align-items:center;justify-content:center;color:#666f79;font-weight
 .blog-card-body{padding:24px}.blog-tag{display:inline-block;color:#e2232a;background:#fff1f2;border-radius:999px;padding:6px 9px;font-size:10px;font-weight:900;letter-spacing:.06em;margin-bottom:12px}
 .blog-card h3{font-size:21px;line-height:1.35;margin:0 0 12px}.blog-card p{color:#69717b;line-height:1.7;margin:0 0 18px}.blog-link{font-weight:800;color:#e2232a}.blog-empty-card{grid-column:1/-1;max-width:620px}.nav a.active{color:#e2232a}
 @media(max-width:900px){.blog-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.blog-grid{grid-template-columns:1fr}}
+
+/* Jetour Freedom T1 model card photo on Chery overview */
+.jetour-freedom-card-image{display:block;margin:-22px -22px 18px;overflow:hidden;border-radius:16px 16px 0 0;background:#eef2f7;aspect-ratio:16/10}
+.jetour-freedom-card-image img{display:block;width:100%;height:100%;object-fit:cover;object-position:center center;transition:transform .25s ease}
+.jetour-freedom-card-image:hover img{transform:scale(1.035)}
