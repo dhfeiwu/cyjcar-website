@@ -1,5 +1,5 @@
 ---
-title: BYD Auto Parts Order Shipped via DHL
+title: BYD Auto Parts Order to Dubai Shipped via DHL
 slug: BYD AutoParts
 date: 2026-11-15
 category: SOURCING GUIDE
