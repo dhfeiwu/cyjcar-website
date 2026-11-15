@@ -1,0 +1,12 @@
+CYJCAR 文章后台安装说明
+
+1. 先备份 GitHub 仓库，然后把本 ZIP 解压后的全部网站文件上传到原仓库 dhfeiwu/cyjcar-website 的 main 分支。不要把 ZIP 文件本身上传到仓库。
+2. 在 GitHub 仓库 Settings > Actions > General > Workflow permissions 选择 Read and write permissions，并保存。
+3. 打开 https://pagescms.org/ ，使用 GitHub 登录，授权 Pages CMS 访问 dhfeiwu/cyjcar-website 仓库（可只授权该仓库）。
+4. 在 Pages CMS 中选择 cyjcar-website 仓库，进入 Blog Articles，点击 New 新建文章。填写标题、日期、分类、SEO 描述、封面（可选）、正文，保存提交。
+5. GitHub Actions 中 Publish CMS Blog Articles 工作流会自动将 Markdown 转换成 HTML，更新 blog.html 和 sitemap.xml，并推送到 main；GitHub Pages 再自动发布。
+6. 第一次安装可以在 GitHub Actions 手动运行 Publish CMS Blog Articles，以确保文章生成。
+7. 当前已有的伊拉克客户案例为原有静态 HTML，继续保留，不会出现在 CMS 编辑列表中。新建的文章才在后台管理。
+8. 文章的 Markdown 文件存储在 content/posts/，新文章网址由 Markdown 文件名决定。不要与现有 HTML 文件重名。
+9. 如果 CMS 授权或仓库配置发生变化，请在 GitHub Pages 和 Actions 中检查部署日志。
+10. 安全提醒：不要把 GitHub token 或密码写进网站文件。
